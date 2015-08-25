@@ -1,0 +1,18 @@
+.navbar-brands {
+	float: left;
+    height: 50px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.menu {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #181717;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #181717;
+}
