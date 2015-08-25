@@ -32,11 +32,21 @@ a {
 	background-color: #FF7700;
 	text-shadow: 0.05em 0.05em white;
 }
-#DONATEPIC{
-	margin-top:50px
+#DONATEPIC {
+	margin-top:50px;
+	width: 100%;
+	height: auto;
+	background-image: url(DONATE2.jpg);
+	
+
 }
+
+<<<<<<< Updated upstream
 
 .icon-bar {
 	color: black;
 	background-color: white;
+=======
+
+>>>>>>> Stashed changes
 }
