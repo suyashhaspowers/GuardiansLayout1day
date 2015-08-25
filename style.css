@@ -24,4 +24,14 @@ a {
 .carousel .item img{
     margin: 0 auto; 
 }
-
+#ABOUT{
+	height: 200px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	background-color: #FF7700;
+	text-shadow: 0.05em 0.05em white;
+}
+#DONATEPIC{
+	margin-top:50px
+}
