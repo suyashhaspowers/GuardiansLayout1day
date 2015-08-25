@@ -16,3 +16,11 @@
 a {
 	color: #181717;
 }
+
+.carousel{
+    background: #FFFFFF;
+    margin-top: 50px;
+}
+.carousel .item img{
+    margin: 0 auto; 
+}
