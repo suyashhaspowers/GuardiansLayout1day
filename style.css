@@ -17,11 +17,11 @@ a {
 	color: #181717;
 }
 
-.carousel{
+.carousel {
     background: #FFFFFF;
-    margin-top: 50px;
+    margin-top: 70px;
 }
-.carousel .item img{
+.item img{
     margin: 0 auto; 
 }
 #ABOUT{
@@ -33,7 +33,7 @@ a {
 	text-shadow: 0.05em 0.05em white;
 }
 #DONATEPIC {
-	margin-top:50px;
+	margin-top:70px;
 	width: 100%;
 	height: auto;
 	background-image: url(DONATE2.jpg);
@@ -52,6 +52,8 @@ h1#Mission {
 
 .navbar-custom {
 	background-color: white;
+	height: 70px;
+	padding-top: 10px;
 }
 
 <<<<<<< Updated upstream
