@@ -9,6 +9,7 @@
 .menu {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	color: #181717;
 	letter-spacing: 1px;
 }
@@ -39,8 +40,12 @@ a {
 	background-image: url(DONATE2.jpg);
 }
 
-h1#Mission {
+#Mission {
 	text-align: center;
+	color: #c74141;
+	font-family: 'Ek Mukta', sans-serif;
+	font-weight: 300;
+	font-size: 43px;
 }
 
 #Open {
@@ -89,6 +94,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
+   }
     
 #nav {
     line-height:30px;
@@ -109,12 +115,30 @@ body {
     color:white;
     clear:both;
     text-align:center;
-   padding:5px;	 	 
+   	padding:5px;	 	 
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans' sans-serif;
 }
 
-#Statement {
+.Statement {
 	text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Open Sans' sans-serif;
+    margin-top: 0px;
+}
+
+#About {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	position: relative;
+}
+
+#AboutText {
+}
+.container {
+	margin-left: 115px;
+	margin-right: 115px;
 }
