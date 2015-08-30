@@ -134,6 +134,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
     font-family: 'Open Sans' sans-serif;
     margin-top: 0px;
+    border: solid;
+    border-color: black;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
 }
 
 #About {
