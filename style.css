@@ -88,7 +88,7 @@ a {
 .sidebar1{
 	width:600px;
 	background-color:black;
-float:right;
+	float:right;
 }
 
 .container {
@@ -163,10 +163,14 @@ hr {
 }
 
 #brand-image {
+<<<<<<< HEAD
 	height: 50px;
 }
 
 .researchimg {
 	width: 20%;
 	height: auto;
+=======
+	height: 45px;
+>>>>>>> origin/master
 }
