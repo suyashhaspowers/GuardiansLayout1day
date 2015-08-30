@@ -40,6 +40,13 @@ a {
 	background-image: url(DONATE2.jpg);
 }
 
+#ResearchPic {
+	margin-top:70px;
+	width: 100%;
+	height: auto;
+	background-image: url(redwolf.jpg);
+}
+
 #Mission {
 	text-align: center;
 	color: #c74141;
