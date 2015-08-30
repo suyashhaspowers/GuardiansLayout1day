@@ -1,3 +1,7 @@
+.wrapper {
+	padding-left: 50px;
+}
+
 .navbar-brands {
 	float: left;
     height: 50px;
@@ -22,10 +26,12 @@ a {
     background: #FFFFFF;
     margin-top: 70px;
 }
-.item img{
+
+.item img {
     margin: 0 auto; 
 }
-#ABOUT{
+
+#ABOUT {
 	height: 200px;
 	text-align: center;
 	font-family: 'Lobster', cursive;
@@ -33,6 +39,7 @@ a {
 	background-color: #FF7700;
 	text-shadow: 0.05em 0.05em white;
 }
+
 #DONATEPIC {
 	margin-top:70px;
 	width: 100%;
@@ -112,11 +119,11 @@ body {
     padding:5px;	      
 }
 
-#section {
+.section {
     width:350px;
-    float:left;
-    padding:10px;	 	 
+    float: left; 	 
 }
+
 #footer {
     background-color:black;
     color:white;
@@ -157,4 +164,9 @@ hr {
 
 #brand-image {
 	height: 50px;
+}
+
+.researchimg {
+	width: 20%;
+	height: auto;
 }
