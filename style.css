@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
-	border-color: #4D4B4A;
+	border-color: #D0CBC9;
 }
 
 #brand-image {
@@ -179,4 +179,13 @@ hr {
 .container {
 	margin-left: 9%;
 	margin-right: 12%;
+}
+
+#Aboutlogo {
+	font-size: 50px;
+	margin-left: 25px;
+}
+
+#Aboutustext {
+	font-size: 20px;
 }
