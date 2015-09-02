@@ -19,20 +19,30 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="FULL">
-	<div class="wrapper">
-
+	<div id="Wrapper">
 		<div class="navbar navbar-custom navbar-fixed-top">
   			<div class="container">
-  				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+  				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button" class="pull-right">
 						<span class="glyphicon glyphicon-menu-hamburger"></span>
 					</button>
    				 <div class="navbar-header">
-      				<a class="navbar-brands" href="#"><img id="logo" src="jamallogo2.png"></a>
+      				<a class="navbar-brand" href="index.html">
+  						<img id="brand-image" class="pull-right" alt="Website Logo" src="jamallogo2.png" />
+  					</a>
     			</div>
     			<div class="collapse navbar-collapse navbar-responsive-collapse">
-     				<ul class="nav navbar-nav pull-right">
-        				<li id="active" class="menu"><a href="index.html">HOME</a></li>
-        				<li class="menu"><a href="#About">ABOUT US</a></li>
+     				<ul class="nav navbar-nav pull-right" style="background-color:white;">
+        				<li class="dropdown">
+                            <a href="index.html" class="menu" class="dropdown-toggle" data-toggle="dropdown">HOME <strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li class="menu">
+                                        <a href="#"><b>ABOUT US</b></a>
+                                    </li>
+                                    
+                                    <li class="menu">
+                                        <a href="#"><b>OUR TEAM</b></a>
+                                    </li>
+                                </ul>
         				<li class="menu"><a href="Research.html">RESEARCH</a></li>
         				<li class="menu"><a href="Donate.html">DONATE</a></li>
       				</ul>
@@ -70,17 +80,21 @@
     <div class="MissionIN" id="MissionIN">
         <h1 id="Mission">OUR MISSION</h1>
         <div class="container">
-            <h4 class="Statement">Our mission is to raise awareness for animal endangerment. We will try to influence the world that we must help and become active with the current animal crisis. With the help of an inspired society we can end the wildlife crisis and begin the journey to a world of peace and harmony.</h4>
+            <h4 class="Statement"> Our goal is to raise awareness for animal endangerment. We will try to influence the world that we must help and become active with the current animal crisis. With your help this can be achieved.</h4>
             <hr>
         </div>
     </div>
     <div id="AboutCONTENT">
-        <div id="AboutText">
-            <p>ABOUT US</p>
-            <p>Guardians Of the Grove is a non-profit organization with the desired goal of raising awareness towards the endangerment of animals.  We will try all we can to invoke a change in the ongoing animal crisis.</p>
+        <div class="AboutText">
+            <h1 id="Aboutlogo"><b>About Us</b></h1>
+            <p id="Aboutustext">Guardians Of the Grove is a non-profit organization with the desired goal of raising awareness towards the endangerment of animals.  We will try all we can to invoke a change in the ongoing animal crisis.</p>
+            <div class="container">
+                <hr>
+            </div>
         </div>
     </div>
 	
+    </div>
     </div>
 </body>
 </html>
