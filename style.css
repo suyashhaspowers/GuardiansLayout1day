@@ -75,14 +75,9 @@ a {
 	padding-top: 10px;
 }
 
-<<<<<<< Updated upstream
-
 .icon-bar {
 	color: black;
 	background-color: white;
-=======
-
->>>>>>> Stashed changes
 }
 
 .sidebar1{
@@ -210,6 +205,38 @@ hr {
 #OURT {
 	margin-bottom: 15px;
 	margin-top: 0px;
-	font-size: 40px;
+	font-size: 47px;
 	color: #0097AA;
+}
+
+#DonateEX {
+	display:inline-block;
+	position:relative;
+}
+
+#donatex {
+	width: 100%;
+	height: auto;
+}
+
+#Sponsors {
+	width: 100%;
+	height: 100px;
+	background-color: #dddbdb;
+}
+
+#spon1 {
+	margin-top: 20px;
+	height: 28px;
+	width: 70px;
+}
+
+#spon2 {
+	height: 28px;
+	width: 70px;
+}
+
+#spon3 {
+	height: 28px;
+	width: 70px;
 }
