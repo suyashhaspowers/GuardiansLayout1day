@@ -183,12 +183,17 @@ hr {
 
 #Aboutlogo {
 	font-size: 50px;
+	margin-top: 0px;
 	margin-left: 25px;
+	color: #0097AA;
 }
 
 #Aboutustext {
 	font-size: 20px;
-	margin-left: 25px;
+	padding: 0px;
+	margin-left: 13px;
+	text-align: justify;
+	font-family: 'Open Sans' sans-serif;
 }
 
 .container2 {
@@ -198,8 +203,6 @@ hr {
 	padding-top: 0px;
 }
 #TeamIMG {
-	margin-right: 25px;
-	height: auto;
-	width: auto;
 	float: right;
+	margin-bottom: 25px;
 }
