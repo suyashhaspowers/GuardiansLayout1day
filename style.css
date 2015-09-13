@@ -1,3 +1,7 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 .wrapper {
 	padding-left: 50px;
 }
@@ -45,6 +49,17 @@ a {
 	width: 100%;
 	height: auto;
 	background-image: url(DONATE2.jpg);
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
 }
 
 #ResearchPic {
@@ -52,6 +67,17 @@ a {
 	width: 100%;
 	height: auto;
 	background-image: url(redwolf.jpg);
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
 }
 
 #Mission {
@@ -60,6 +86,7 @@ a {
 	font-family: 'Ek Mukta', sans-serif;
 	font-weight: 300;
 	font-size: 43px;
+
 }
 
 #Open {
@@ -157,9 +184,6 @@ hr {
 	border-color: #D0CBC9;
 }
 
-#brand-image {
-	height: auto;
-}
 
 
 
@@ -324,4 +348,62 @@ font-size: 20px;
 
 #features img {
 	margin: 0 0 20px;
+}
+
+#footer {
+	width: 100%;
+	min-height: 60px;
+	background-color: #384351;
+	height: auto;
+}
+
+.menu2 {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+
+#MissionIN {
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+#donaaa {
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+#Wrapper3 {
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
 }
