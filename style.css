@@ -1,3 +1,7 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 .wrapper {
 	padding-left: 50px;
 }
@@ -45,6 +49,17 @@ a {
 	width: 100%;
 	height: auto;
 	background-image: url(DONATE2.jpg);
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
 }
 
 #ResearchPic {
@@ -52,6 +67,17 @@ a {
 	width: 100%;
 	height: auto;
 	background-image: url(redwolf.jpg);
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
 }
 
 #Mission {
@@ -60,6 +86,7 @@ a {
 	font-family: 'Ek Mukta', sans-serif;
 	font-weight: 300;
 	font-size: 43px;
+
 }
 
 #Open {
@@ -157,23 +184,17 @@ hr {
 	border-color: #D0CBC9;
 }
 
-#brand-image {
-	height: auto;
-}
 
-.researchimg {
-	width: 20%;
-	height: auto;
-}
 
 
 .navbar-brand {
 	padding: 0px;
 }
 
-.container {
-	margin-left: 10%;
-	margin-right: 12%;
+
+
+.rinopart{
+	margin-bottom:100%;
 }
 
 #Aboutlogo {
@@ -183,7 +204,61 @@ hr {
 	color: #0097AA;
 }
 
+#rinologo {
+	font-size: 50px;
+	margin-top: 0px;
+	margin-left: 25%;
+	color: #0097AA;
+}
+
+#gorilla1 {
+	font-size: 50px;
+	margin-top: 0px;
+	margin-left: 25%;
+	color: #0097AA;
+
+}
+
+#leopardlogo{
+	font-size: 50px;
+	display:inline-block;
+	margin-top: auto;
+	margin-left: auto;
+	color: #0097AA;
+}
+
+#leopardpart {
+	font-size: 50px;
+	margin-top: auto;
+	margin-left: auto;
+	color: #0097AA;
+}
+
 #Aboutustext {
+	font-size: 20px;
+	padding: 0px;
+	margin-left: 13px;
+	text-align: justify;
+	font-family: 'Open Sans' sans-serif;
+}
+#rinotext{
+font-size: 20px;
+	padding: 0px;
+	margin-left: 13px;
+	text-align: justify;
+	font-family: 'Open Sans' sans-serif;
+
+}
+
+#gorillatext {
+	font-size: 20px;
+	padding: 0px;
+	margin-left: 13px;
+	text-align: justify;
+	font-family: 'Open Sans' sans-serif;
+}
+
+#leopardtext{
 	font-size: 20px;
 	padding: 0px;
 	margin-left: 13px;
@@ -201,6 +276,32 @@ hr {
 	float: right;
 	margin-bottom: 25px;
 }
+
+#blackrinopic {
+	float: left;
+	width:520px;
+	margin-left:auto;
+   margin-top:0px;
+	display:block
+}
+
+#leopardpic{
+	float: left;
+	display:block;
+   display:block;
+   width:300px;
+
+	
+}
+
+#gorillapic{
+	float: left;
+	width:350px;
+	margin-left:auto;
+   margin-bottom:100px;
+	display:block;
+}
+
 
 #OURT {
 	margin-bottom: 15px;
@@ -226,17 +327,83 @@ hr {
 }
 
 #spon1 {
-	margin-top: 20px;
-	height: 28px;
-	width: 70px;
+	height: 75px;
+	max-width: 100%;
 }
 
 #spon2 {
-	height: 28px;
-	width: 70px;
+	height: 75px;
+	max-width: 100%;
 }
 
 #spon3 {
-	height: 28px;
-	width: 70px;
+	height: 75px;
+	max-width: 100%;
+}
+
+#features {
+	text-align: center;
+	margin-top: 25px;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#footer {
+	width: 100%;
+	min-height: 60px;
+	background-color: #384351;
+	height: auto;
+}
+
+.menu2 {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+
+#MissionIN {
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+#donaaa {
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+#Wrapper3 {
+	webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
 }
