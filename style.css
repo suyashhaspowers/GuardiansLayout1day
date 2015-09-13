@@ -263,8 +263,8 @@ font-size: 20px;
 
 #leopardpic{
 	float: left;
-	display:block
-   display:block
+	display:block;
+   display:block;
    width:300px;
 
 	
@@ -273,9 +273,9 @@ font-size: 20px;
 #gorillapic{
 	float: left;
 	width:350px;
-	margin-left:auto
+	margin-left:auto;
    margin-bottom:100px;
-	display:block
+	display:block;
 }
 
 
