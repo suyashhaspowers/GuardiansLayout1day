@@ -226,7 +226,7 @@ font-size: 20px;
 
 }
 
-#gorillatext{
+#gorillatext {
 	font-size: 20px;
 	padding: 0px;
 	margin-left: 13px;
@@ -303,19 +303,18 @@ font-size: 20px;
 }
 
 #spon1 {
-	margin-top: 20px;
-	height: 28px;
-	width: 70px;
+	height: 75px;
+	max-width: 100%;
 }
 
 #spon2 {
-	height: 28px;
-	width: 70px;
+	height: 75px;
+	max-width: 100%;
 }
 
 #spon3 {
-	height: 28px;
-	width: 70px;
+	height: 75px;
+	max-width: 100%;
 }
 
 #features {
